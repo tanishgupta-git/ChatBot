@@ -1,0 +1,5 @@
+NLP(steaming, tokenisation, bag of words)
+Training data
+Model Training
+Implement chat
+Frontend

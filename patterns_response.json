@@ -1,0 +1,110 @@
+{
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns" : [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Is anyone there?",
+                "How are you",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "What's up"
+            ],
+            "responses" : [
+                "Hey :-)",
+                "Hello, thanks for visiting",
+                "Hey there, what can I do for you?",
+                "Hey there, how can I help you?"
+            ]
+        },
+        {
+            "tag" : "goodbye",
+            "patterns" : [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses" : [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! see you soon"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks", 
+                "Thank you", 
+                "That's helpful", 
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help!", 
+                "Any time!", 
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Which items do you have?",
+                "What kinds of items are there?",
+                "What do you sell?"
+            ],
+            "responses": [
+            "We sell coffee and tea",
+            "We have coffee and tea"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+              "Do you take credit cards?",
+              "Do you accept Mastercard?",
+              "Can I pay with Paypal?",
+              "Are you cash only?"
+            ],
+            "responses": [
+              "We accept VISA, Mastercard and Paypal",
+              "We accept most major credit cards, and Paypal"
+            ]
+          },
+          {
+            "tag": "delivery",
+            "patterns": [
+              "How long does delivery take?",
+              "How long does shipping take?",
+              "When do I get my delivery?"
+            ],
+            "responses": [
+              "Delivery takes 2-4 days",
+              "Shipping takes 2-4 days"
+            ]
+          },
+          {
+            "tag": "funny",
+            "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+            ],
+            "responses": [
+              "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison.",
+              "I went to buy some camo pants but couldn't find any.",
+              "I failed math so many times at school, I can't even count.",
+              "I used to have a handle on life, but then it broke.",
+              "I heard there were a bunch of break-ins over at the car park. That is wrong on so many levels.",
+              "I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.",
+              "Don't you hate it when someone answers their own questions? I do.",
+              "The easiest time to add insult to injury is when you're signing someone's cast.",
+              "A termite walks into the bar and asks, 'Is the bar tender here?'",
+              "My therapist says I have a preoccupation for revenge. We'll see about that.",
+              "Two fish are in a tank. One says, 'How do you drive this thing?'"
+            ]
+          }
+    ]
+}
